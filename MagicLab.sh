@@ -28,4 +28,3 @@ OS=${OS#* }
 echo -e "\e[35mOS\e[0m --  $OS"
 
 #storage, coming soon!
-export PATH=$PATH:/home/fda/Desktop/toys/MagicLab.sh
