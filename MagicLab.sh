@@ -4,7 +4,11 @@ echo "░█▄█░█▀█░█▀▀░▀█▀░█▀▀░█░░�
 ░█░█░█▀█░█░█░░█░░█░░░█░░░█▀█░█▀▄
 ░▀░▀░▀░▀░▀▀▀░▀▀▀░▀▀▀░▀▀▀░▀░▀░▀▀░
 "
-# RAM, OS, GPU, CPU, Storage
+#Res, RAM, OS, GPU, CPU, Storage
+
+#resolution
+res=`xdpyinfo | awk '/dimensions/{print $2}'`
+echo -e "\e[35mResolution\e[0m -- ${res##*:}"
 
 # Ram
 MEM=`free -m  | grep Mem | awk '{print $2}'`
@@ -26,5 +30,3 @@ OS=${OS%Kernel*}
 OS=${OS##*System}
 OS=${OS#* }
 echo -e "\e[35mOS\e[0m --  $OS"
-
-#storage, coming soon!
