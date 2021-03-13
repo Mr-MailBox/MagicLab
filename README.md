@@ -7,4 +7,4 @@ copy the .sh file into a $PATH folder then
 
 run `chmod +x Magiclab.sh` 
 
-You will need to call `./MagicLab.sh` or `MagicLab.sh` to run it
+You will need to call or `MagicLab.sh` to run it
