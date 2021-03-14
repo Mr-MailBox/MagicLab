@@ -11,4 +11,4 @@ run `chmod +x Magiclab.sh`
 You will need to call or `MagicLab.sh` to run it
 
 ## where have i tested it so far
-I've checked on Manjaro(which I think it makes it work on Arch distros) and Mint(which I think makes it work on Ubuntu and Debian)
+I've checked on Manjaro(which I think it makes it work on Arch distros), Mint(which I think makes it work on Ubuntu and Debian), and Fedora
