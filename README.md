@@ -16,3 +16,6 @@ You will need to call `MagicLab.sh` to run it
 
 ## where have i tested it so far
 I've checked on Manjaro(which I think it makes it work on Arch distros), Mint(which I think makes it work on Ubuntu and Debian), and Fedora
+
+## plans for da future
+i am not going to lie, i don't really know how to make config files and such, but it really isn't that hard to edit the source code, as it's only about 37 lines long and commented 
